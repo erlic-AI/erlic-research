@@ -1,60 +1,107 @@
-# erlic AI
+# erlic AI Research
 
 ### Turkish Language AI Research & Development
 
-**erlic AI** is an independent artificial intelligence research initiative focused on developing efficient language models with a primary emphasis on the Turkish language.
+erlic AI is an independent research initiative focused on Turkish-language artificial intelligence, efficient language model architectures, and verifiable reasoning.
 
-Our research explores modern language model architectures, Mixture-of-Experts (MoE) systems, efficient training methods, and Turkish language processing.
+This repository contains public research documentation, technical plans, validation information, and compute-resource preparation materials.
+
+The private model training implementation is maintained separately and is not included in this repository.
 
 ---
 
-## Research & Development
+## Research Focus
 
-Our primary research areas include:
+### 1. Turkish Language Modeling
 
-- **Turkish Language Models:** Developing language models focused on Turkish language understanding and generation.
-- **Mixture-of-Experts (MoE):** Exploring sparse model architectures and expert-based computation.
-- **Efficient Training:** Researching scalable and resource-efficient training methods.
-- **Data Engineering:** Developing data processing, filtering, and quality-control pipelines.
-- **Model Evaluation:** Evaluating language understanding, generation, and reasoning capabilities.
+Research into language models designed to understand and generate Turkish, with particular attention to its morphological structure.
+
+### 2. Mixture-of-Experts Architectures
+
+Exploration of sparse expert-based architectures and their potential for efficient language model computation.
+
+### 3. Efficient Model Training
+
+Research into GPU memory efficiency, distributed training, optimization, and scalable training infrastructure.
+
+### 4. Reasoning and Evaluation
+
+Investigation of mathematical, logical, and verifiable reasoning methods, supported by reproducible evaluation.
+
+### 5. Data Engineering
+
+Development of data preparation principles, quality control, deduplication, and licensing review procedures.
+
+---
 
 ## Research Objectives
 
 The main objectives of erlic AI are:
 
-1. Advance Turkish-language artificial intelligence research.
-2. Explore efficient and scalable language model architectures.
-3. Develop reliable Turkish text data pipelines.
-4. Improve language model training and inference efficiency.
-5. Contribute to the AI research community through selected open research resources.
+1. Investigate efficient language model architectures for Turkish.
+2. Explore sparse Mixture-of-Experts approaches.
+3. Establish reliable data preparation and quality-control procedures.
+4. Validate training infrastructure before large-scale experiments.
+5. Evaluate language understanding and reasoning capabilities using reproducible methods.
+6. Publish research documentation and verified results when available.
 
-## Current Status
+---
 
-**Project phase:** Engineering validation and compute preparation.
+## Current Project Status
 
-The model architecture and training infrastructure are under development and validation.
+**Current phase:** Engineering validation and compute-resource preparation.
 
-Large-scale model training has not yet been completed. No trained model weights or benchmark results are currently being claimed.
+The project is preparing its software validation pipeline and seeking suitable GPU infrastructure for controlled experiments.
 
-## Compute Resources & Collaboration
+Large-scale model training has not yet been completed.
 
-erlic AI is preparing for large-scale model training and welcomes opportunities involving:
+No trained model weights, completed benchmark results, or measured large-scale training performance are being claimed.
 
-- GPU compute grants and research credits.
-- High-performance GPU infrastructure.
-- Research collaborations.
-- Turkish language AI research initiatives.
+---
 
-## Organization
+## Public Documentation
 
-- **GitHub:** [github.com/erlic-AI](https://github.com/erlic-AI)
-- **Hugging Face:** [huggingface.co/erlic](https://huggingface.co/erlic)
+| Document | Description |
+|---|---|
+| [Research Overview](docs/RESEARCH_OVERVIEW.md) | Research motivation, scope, and objectives |
+| [Compute Plan](docs/COMPUTE_PLAN.md) | Hardware requirements and compute strategy |
+| [Data Licensing Policy](docs/DATA_LICENSE_POLICY.md) | Dataset licensing and usage principles |
+| [Grant Readiness](docs/GRANT_READINESS.md) | Research and infrastructure preparation |
+| [Compute Request Template](docs/COMPUTE_REQUEST_TEMPLATE.md) | Template for compute-resource applications |
+| [Known Limitations](docs/KNOWN_LIMITATIONS.md) | Current technical limitations |
+| [Validation Status](docs/VALIDATION_STATUS.md) | Software testing status |
+
+---
+
+## Compute and Research Collaboration
+
+erlic AI is preparing for controlled model-training experiments and welcomes opportunities involving:
+
+- GPU compute grants
+- Research credits
+- High-performance computing infrastructure
+- Research partnerships
+- Turkish-language AI research initiatives
+
+All compute requests will be based on documented requirements and measured validation results.
+
+---
+
+## Code and Model Availability
+
+The model training implementation is maintained privately during the current development phase.
+
+This repository contains public research documentation and does not distribute private training code, model weights, or restricted datasets.
+
+Future releases will be evaluated separately for technical readiness, licensing compatibility, and publication requirements.
+
+---
 
 ## Contact
 
-For research inquiries and collaboration:
-
-**Email:** erlic.research@gmail.com
+- **Email:** erlic.research@gmail.com
+- **GitHub Organization:** https://github.com/erlic-AI
+- **Hugging Face Organization:** https://huggingface.co/erlic
 
 ---
 
